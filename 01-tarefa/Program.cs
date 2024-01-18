@@ -10,16 +10,13 @@ namespace _01_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Smart - Tarefa 01");
+            Console.WriteLine("C# - Smart - Tarefa 01");
             Console.WriteLine("Digite um número: ");
 
-            // Recebe a entrada do usuário
             string input = Console.ReadLine();
 
-            // Converte a entrada para um número inteiro
             if (int.TryParse(input, out int number))
             {
-                // Verifica se o número é par ou ímpar
                 if (number % 2 == 0)
                 {
                     Console.WriteLine($"{number} é um número par.");

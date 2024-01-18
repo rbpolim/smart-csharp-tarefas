@@ -1,0 +1,2 @@
+18/01/2024 10:19:39: Nome: Rodrigo Polim, Idade: 34, Peso: 80 kg, Altura: 180 m, IMC: 0.00
+18/01/2024 10:20:09: Nome: Marina Lemos, Idade: 30, Peso: 60 kg, Altura: 160 m, IMC: 0.00

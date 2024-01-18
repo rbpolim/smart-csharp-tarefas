@@ -11,7 +11,7 @@ namespace _02_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("C# - Smart - Tarefa 02");
+            Console.WriteLine("Smart - Tarefa 02");
             Console.WriteLine("Entre com o símbolo de operação:");
             Console.WriteLine("( + ) - Adição");
             Console.WriteLine("( - ) - Subtração");
