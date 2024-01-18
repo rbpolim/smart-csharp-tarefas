@@ -11,11 +11,11 @@ namespace _07_tarefa
         static void Main(string[] args)
         {
             Console.WriteLine("C# - Smart - Tarefa 07 | Conta Corrente");
-            ContaCorrente conta = new ContaCorrente
+            CheckingAccount account = new CheckingAccount
             {
-                IdConta = 1,
-                NomeCorrentista = "Exemplo Correntista",
-                Saldo = 1000.00
+                CountId = 1,
+                NameAccount = "Exemplo de Correntista",
+                Balance = 1000.00
             };
 
             while (true)
@@ -30,13 +30,13 @@ namespace _07_tarefa
                 switch (option)
                 {
                     case "1":
-                        conta.ConsultarSaldo();
+                        account.CheckBalance();
                         break;
                     case "2":
                         Console.Write("Digite o valor do saque: ");
                         if (double.TryParse(Console.ReadLine(), out double valorSaque))
                         {
-                            conta.RealizarSaque(valorSaque);
+                            account.ProcessWithdrawal(valorSaque);
                         }
                         else
                         {
