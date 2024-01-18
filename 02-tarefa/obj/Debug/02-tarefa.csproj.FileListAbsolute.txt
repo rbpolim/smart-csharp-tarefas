@@ -1,0 +1,7 @@
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\bin\Debug\02-tarefa.exe.config
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\bin\Debug\02-tarefa.exe
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\bin\Debug\02-tarefa.pdb
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\obj\Debug\02-tarefa.csproj.AssemblyReference.cache
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\obj\Debug\02-tarefa.csproj.CoreCompileInputs.cache
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\obj\Debug\02-tarefa.exe
+C:\Users\rbpol\source\repos\smart-csharp-tarefas\02-tarefa\obj\Debug\02-tarefa.pdb
