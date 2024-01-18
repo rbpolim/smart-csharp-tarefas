@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04_tarefa
 {
@@ -14,8 +9,7 @@ namespace _04_tarefa
         {
             string path = "C:\\Users\\rbpol\\Desktop\\imc.txt";
 
-            Console.WriteLine("C# - Smart - Tarefa 04");
-            Console.WriteLine("Calculadora IMC");
+            Console.WriteLine("C# - Smart - Tarefa 04 | Calculadora IMC");
 
             while (true)
             {
@@ -67,15 +61,15 @@ namespace _04_tarefa
             }
 
             Console.Write("Altura (m): ");
-            double altura;
-            while (!double.TryParse(Console.ReadLine(), out altura) || altura <= 0)
+            double height;
+            while (!double.TryParse(Console.ReadLine(), out height) || height <= 0)
             {
                 Console.WriteLine("Altura inválida. Digite novamente.");
             }
 
-            string imc = CalculateIMC(weight, altura);
+            string imc = CalculateIMC(weight, height);
 
-            RecordRegister(path, username, age, weight, altura, imc);
+            RecordRegister(path, username, age, weight, height, imc);
 
             Console.WriteLine($"Resultado IMC: {imc} \nCadastro realizado.");
         }
@@ -90,9 +84,9 @@ namespace _04_tarefa
                 return;
             }
 
-            string[] linhas = File.ReadAllLines(path);
+            string[] rows = File.ReadAllLines(path);
 
-            if (linhas.Length == 0)
+            if (rows.Length == 0)
             {
                 Console.WriteLine("Nenhum cadastro encontrado.");
                 return;
@@ -100,9 +94,9 @@ namespace _04_tarefa
 
             Console.WriteLine("Registros:");
 
-            foreach (string linha in linhas)
+            foreach (string row in rows)
             {
-                Console.WriteLine(linha);
+                Console.WriteLine(row);
             }
         }
 
@@ -129,7 +123,7 @@ namespace _04_tarefa
 
             using (StreamWriter sw = File.AppendText(path))
             {
-                sw.WriteLine($"Nome: {username}; \nIdade: {age}; \nPeso: {weight} kg; \nAltura: {height} m; \nIMC: {imc} \nCriado em: {DateTime.Now}; {separator}");
+                sw.WriteLine($"\nNome: {username}; \nIdade: {age}; \nPeso: {weight} kg; \nAltura: {height} m; \nIMC: {imc} \nCriado em: {DateTime.Now}; {separator}");
             }
         }
     }
