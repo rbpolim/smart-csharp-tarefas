@@ -7,9 +7,9 @@ namespace _04_tarefa
     {
         static void Main()
         {
-            string path = "C:\\Users\\rbpol\\Desktop\\imc.txt";
-
             Console.WriteLine("C# - Smart - Tarefa 04 | Calculadora IMC");
+
+            string path = "C:\\Users\\rbpol\\Desktop\\imc.txt";
 
             while (true)
             {

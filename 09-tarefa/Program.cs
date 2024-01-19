@@ -12,7 +12,7 @@ namespace _09_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("C# - Smart - Tarefa 09 | Imprimindo CSV");
+            Console.WriteLine("C# - Smart - Tarefa 09 | Imprimindo CSV\n");
 
             try
             {

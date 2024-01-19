@@ -10,7 +10,7 @@ namespace _08_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("C# - Smart - Tarefa 08 | Somando Vetor");
+            Console.WriteLine("C# - Smart - Tarefa 08 | Somando Vetor\n");
 
             int[] arr = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 };
 

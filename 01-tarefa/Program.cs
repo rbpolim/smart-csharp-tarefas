@@ -10,7 +10,7 @@ namespace _01_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("C# - Smart - Tarefa 01");
+            Console.WriteLine("C# - Smart - Tarefa 01 | Par ou Ímpar\n");
             Console.WriteLine("Digite um número: ");
 
             string input = Console.ReadLine();
@@ -31,7 +31,8 @@ namespace _01_tarefa
                 Console.WriteLine("Por favor, digite um número válido.");
             }
 
-            Console.Read();
+            Console.WriteLine("\nPressione qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }

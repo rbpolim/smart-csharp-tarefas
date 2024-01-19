@@ -11,7 +11,7 @@ namespace _06_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("C# - Smart - Tarefa 06 | Aluno mais alto");
+            Console.WriteLine("C# - Smart - Tarefa 06 | Aluno mais alto\n");
 
             int totalStudents = 5;
             string tallestStudent = "";
@@ -19,7 +19,7 @@ namespace _06_tarefa
 
             for (int i = 1; i <= totalStudents; i++)
             {
-                Console.Write($"Dgite o nome do estudante {i}: ");
+                Console.Write($"Digite o nome do estudante {i}: ");
                 string name = Console.ReadLine();
 
                 Console.Write($"Digite a altura do estudante {i} (em metros, utilize vírgula para decimais): ");

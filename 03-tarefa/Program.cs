@@ -10,8 +10,7 @@ namespace _03_tarefa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("C# - Smart - Tarefa 03");
-            Console.WriteLine("Calculadora de Reajuste Salarial");
+            Console.WriteLine("C# - Smart - Tarefa 09 | Calculadora de Reajuste Salarial\n");
 
             Console.Write("Digite o salário atual: ");
             if (!double.TryParse(Console.ReadLine(), out double currentWage))
